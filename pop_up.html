@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="pop_up.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <h2>🔒 Password Strength Checker</h2>
+    <div class="card glass">
+        <div class="input-group">
+        <span class="icon">🔑</span>
+        <input type="password" id="pwd" placeholder="Enter your password">
+        </div>
+        <button id="checkBtn">Check Strength</button>
+        <div class="strength-bar">
+        <div id="strengthFill"></div>
+        </div>
+        <p id="result">Type a password to test...</p>
+    </div>
+    </div>
+
+    <script src="Data/Common_Password_list.js"></script>
+    <script src="pop_up.js"></script>
+</body>
+</html>

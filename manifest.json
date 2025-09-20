@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Password Strength Checker",
+    "version": "1.0",
+    "description": "Check if password is in common password list",
+    "permissions": ["storage"],
+    "action": {
+    "default_popup": "pop_up.html"
+    
+}
+}
